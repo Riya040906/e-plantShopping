@@ -1,8 +1,9 @@
-import React from 'react';
+
 import { useSelector, useDispatch } from 'react-redux';
 import { removeItem, updateQuantity } from './CartSlice';
 import './CartItem.css';
 
+// eslint-disable-next-line react/prop-types
 const CartItem = ({ onContinueShopping }) => {
   const cart = useSelector(state => state.cart.items);
   const dispatch = useDispatch();
@@ -116,7 +117,7 @@ const CartItem = ({ onContinueShopping }) => {
 
         <br />
 
-        <button className="get-started-button1">
+        <button className="get-started-button1" onClick={() => window.alert("Coming Soon")}>
           Checkout
         </button>
       </div>

@@ -250,3 +250,17 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+.cart-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 5px;
+  border-radius: 50%;
+  background-color: #ff6961;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: top;
+}
